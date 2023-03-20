@@ -1,0 +1,151 @@
+document.write(`
+    <div class="main__content">
+        <div class="main_content_col">
+            <h2 class="tab__title">Classifica Italiana</h2>
+            <table class="main__table"; cellspacing="0"; cellpadding="0"; id="main_content_rightcol">
+                <tr class="opa2">
+                    <td class="tab__col">Pos</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr>
+                <tr class="opa1">
+                    <td class="tab__col">1</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr>
+                <tr class="opa2">
+                    <td class="tab__col">2</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa1">
+                    <td class="tab__col">3</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">4</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa1">
+                    <td class="tab__col">5</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">6</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa1">
+                    <td class="tab__col">7</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">8</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa1">
+                    <td class="tab__col">9</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">10</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_content_col">
+            <h2 class="tab__title">Classifica Mondiale</h2>
+            <table class="main__table"; cellspacing="0"; cellpadding="0"; id="main_content_leftcol">
+                <tr class="opa2">
+                    <td class="tab__col">Pos</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr>
+                <tr class="opa1">
+                    <td class="tab__col">1</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">2</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa1">
+                    <td class="tab__col">3</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">4</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa1">
+                    <td class="tab__col">5</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">6</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa1">
+                    <td class="tab__col">7</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">8</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa1">
+                    <td class="tab__col">9</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr><tr class="opa2">
+                    <td class="tab__col">10</td>
+                    <td class="tab__col">Nome</td>
+                    <td class="tab__col">Autore</td>
+                    <td class="tab__col">Data Pubblicazione</td>
+                    <td class="tab__col5">Casa Discografica</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+`)
