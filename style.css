@@ -92,6 +92,7 @@ main h2{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luc
     border-bottom-right-radius: 20px;
     padding: 10px;
     box-shadow: 6px 6px 20px -10px rgba(0,0,0,0.65);
+    height: fit-content;
 }
 #menu-col h2{
     text-align: center;
@@ -106,7 +107,7 @@ main h2{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Luc
     justify-content: center;
     border-top: 1px solid black;
 }
-#col-centrale p{padding: 10px; text-align: justify;}
+#col-centrale p{padding: 10px; text-align: center;}
 #col-centrale h3{text-align: center;}
 .generi__section{display: flex;  justify-content: space-around;}
 .gen__col{border: 2px solid black; border-radius: 10px; margin: 22px; width: 25%; position: relative; background-image: linear-gradient(45deg, silver, white 30% 70%, silver);}
@@ -352,36 +353,42 @@ main{padding-bottom: 70px;}
 
 
 .page__title{width: auto; text-align: center;}
-.main__content{display: flex; flex-wrap: wrap; margin: 0; }
-.main_content_col{justify-content: center; text-align: center; margin: auto; margin-bottom: 30px; padding: 0px 30px 30px 30px; border-radius: 10px;}
+.tab__title{text-align: center;}
+.main__content{display: flex; flex-wrap: wrap; margin: 0;}
+.main_content_col{height: 50%; width: 45%; justify-content: center; text-align: center; margin-bottom: 0; margin-right: auto; margin-left: auto; margin-bottom: 30px; padding: 0px 30px 30px 30px; border-radius: 10px;}
 .main__table{
     font-size: x-large;
     border: 2px solid black;
     box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.59);
+    width: 100%;
+    height: 100%;
 }
-#main_content_rightcol{
+/*#main_content_rightcol{
     background-image: url(./foto/italy.jpeg);
     background-blend-mode: lighten; /* modalità di miscelazione */
-    background-size: cover;
+    /*background-size: cover;
     background-position: center;
-}
-#main_content_leftcol{
+}*/
+/*#main_content_leftcol{
     background-image: url(./foto/world.jpg);
     background-blend-mode: lighten; /* modalità di miscelazione */
-    background-size: cover;
+    /*background-size: cover;
     background-position: center;
     color:floralwhite;
-}
-.opa2{background-color: rgba(255, 255, 255, 0.40);}
-.opa1{background-color: rgba(255, 255, 255, 0.20);}
+}*/
+.opa2{background-color: white}
+.opa1{background-color:lightgray}
 .tab__col{opacity: 1;}
 .tab__col{border-right: 1px solid black; padding: 5px 10px 5px 10px;}
 .tab__col5{padding: 5px 10px;}
+.main__content__lat{height: 100%;}
+.main__table__lat{width: 80%; margin: auto; border: 2px solid black;}
 
 .nov_section{display: flex; flex-wrap: wrap; border-top: 1px solid black;}
 #nov{width: 40%; border-right: 1px solid black;}
 #nov h3{margin: 30px 0 30px 0;}
-#nov img{width: 50%; margin: auto; border-radius: 10px; box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.59);}
+#nov div{position: relative; width: 100%;}
+#nov img{width: 50%; position: absolute; border-radius: 10px; box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.59); margin: 30px auto auto 150px; }
 .song_link{text-decoration: none; color: slategrey;}
 #not{width: 60%; padding: 15px;}
 .not_foto{display: flex; margin-top: 25px; margin-bottom: 35px;}
